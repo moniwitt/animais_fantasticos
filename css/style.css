@@ -214,7 +214,20 @@ faq-lista dt::before {
   }
 }
 
+.js-tabcontent section {
+  display: none;
+}
 
+.js-tabcontent section.ativo {
+  display: block !important;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: matrix3d()
+  }
+}
 
 
 
